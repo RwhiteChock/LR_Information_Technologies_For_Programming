@@ -1,0 +1,80 @@
+/* ===== Общие стили для body ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EFE8; /* тёплый кремовый */
+    color: #514238; /* мягкий коричневый */
+    margin: 0;
+    padding: 30px;
+}
+/* ===== Заголовок h1 ===== */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #795548; /* кофейно-коричневый */
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 3px rgba(100, 70, 50, 0.2);
+}
+/* ===== Абзац с учебным заведением ===== */
+.institution {
+    text-align: center;
+    font-size: 18px;
+    color: #8D7768;
+    margin-bottom: 30px;
+}
+/* ===== Карточка ===== */
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #FFFCF8; /* почти белый, сливочный */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(105, 75, 55, 0.15);
+    text-align: center;
+}
+/* ===== Аватар ===== */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #B89A7D; /* светлая карамель */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+/* ===== Подзаголовок h2 ===== */
+.card h2 {
+    color: #795548;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+/* ===== Абзац внутри карточки ===== */
+.card p {
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/* ===== Список ===== */
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.card ul li {
+    background-color: #F0E4D8; /* пастельный бежевый */
+    color: #5D493B;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+/* ===== Ссылка ===== */
+.card a {
+    color: #8A624A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.card a:hover {
+    color: #B56E4A; /* карамельный при наведении */
+    text-decoration: underline;
+}

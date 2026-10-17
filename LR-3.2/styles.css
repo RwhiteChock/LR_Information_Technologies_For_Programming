@@ -1,0 +1,38 @@
+/* ===== Общие стили ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EFE8; /* кремовый фон */
+    color: #514238;
+    text-align: center;
+}
+/* ===== Сетка из 9 блоков ===== */
+.grid {
+    width: 330px;
+    margin: 20px auto;
+    font-size: 0;
+}
+/* ===== Отдельные блоки ===== */
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #B89A7D; /* пастельная карамель */
+    margin: 5px;
+    font-size: 20px;
+    line-height: 100px;
+    color: #FFFCF8; /* сливочный текст */
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(105, 75, 55, 0.15);
+}
+/* ===== Ссылки ===== */
+a {
+    color: #8A624A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #B56E4A; /* карамельный при наведении */
+    text-decoration: underline;
+}
